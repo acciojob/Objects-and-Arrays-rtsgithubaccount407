@@ -4,10 +4,9 @@ const person = {
   name: "John Doe",
   age: 80,
 };
-const team = players; 
-const team1 = players.slice();
-
-let cap1 = object.assign({}, person);
+const team = players;
+const team1 = [...players];
+const cap1 = Object.assign({}, person);
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
